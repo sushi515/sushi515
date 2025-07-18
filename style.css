@@ -1,0 +1,28 @@
+@keyframes backgroundchange {
+  from {background-color: red;}
+  to {background-coolor: yellow;}
+}
+
+@keyframes backgroundchange2 {
+  0%{background-coolor: yellow;}
+  25%{background-color: crimson;}
+  50%{background-color: maroon;}
+  75%{background-color: red;}
+  100%{background-color: yellow;}
+}
+
+body {
+  animation-name: backgroundchange;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textchange {
+  from {font-size: 1px;}
+  to {font-size}: 100px;
+}
+
+h1 {
+  animation-name: text 
+}
